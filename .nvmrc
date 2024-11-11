@@ -1,0 +1,26 @@
+#Arquivo utilizado para rodar os 'Run Commands'
+# ----- Comando da linha abaixo apresenta a lista de apelidos e versões do node.js
+#nvm ls
+#       v18.20.4
+#       v20.17.0
+#->       system
+#default -> 20 (-> v20.17.0)
+#iojs -> N/A (default)
+#unstable -> N/A (default)
+#node -> stable (-> v20.17.0) (default)
+#stable -> 20.17 (-> v20.17.0) (default)
+#lts/* -> lts/iron (-> v20.17.0)
+#lts/argon -> v4.9.1 (-> N/A)
+#lts/boron -> v6.17.1 (-> N/A)
+#lts/carbon -> v8.17.0 (-> N/A)
+#lts/dubnium -> v10.24.1 (-> N/A)
+#lts/erbium -> v12.22.12 (-> N/A)
+#lts/fermium -> v14.21.3 (-> N/A)
+#lts/gallium -> v16.20.2 (-> N/A)
+#lts/hydrogen -> v18.20.4
+#lts/iron -> v20.17.0
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    DICA DE USO DESTE TIPO DE ARQUIVO:
+#>>>>    Para utilizar um comando aqui, deve ser colocado uma linha com ele e deixar sempre uma linha em branco no final do arquivo.
+
+
+lts/hydrogen
