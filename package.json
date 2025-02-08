@@ -1,0 +1,17 @@
+{
+  "name": "clone-tabnews",
+  "version": "1.0.0",
+  "description": "Reprodução de um projeto com dificuldades reais para fins de aprendizado de contextos além dos livros.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "limpacmd": "clear"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
