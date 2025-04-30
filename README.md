@@ -31,3 +31,19 @@ Faz a conexão com o mundo/rotas, e leva a camada de objetos concretos do front.
 ## React 
 Utilizada para receber as entradas e retornos ao usuário. (front)
 Componentização de objetos recebidos da camada de rotas, para a interface com o usuário.
+
+### package.json
+Arquivo de manifesto do projeto.
+Armazena:
+- Metadados
+- Scripts
+- Dependencias do projeto
+
+### package-lock.json
+Arquivo de manifesto *exclusivo* para dependencias.
+Armazena:
+- Dependencias  (NPM Instal -> next e react [instaladas via comandos])
+    - Dependencias (Dependencias das dependeicas instaladas via comando)
+
+
+
