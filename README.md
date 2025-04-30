@@ -48,7 +48,7 @@ Armazena:
 
 ### DICAS Git
 Atenção ao usar comando: git push --force (pode ferrar tudo se for em projeto colaborativo)
-## utilizar de forma segura da seguinte maneira
+## Utilizar de forma segura da seguinte maneira
 git push --forse-with-lease
 
    O comando git push --force-with-lease é uma versão mais segura do git push --force. Ele permite que você atualize o repositório remoto com seu histórico local, mas apenas se ninguém mais tiver feito alterações na branch remota desde a última vez que você sincronizou. É uma maneira de evitar sobrescrever acidentalmente o trabalho de outras pessoas.
