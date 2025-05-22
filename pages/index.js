@@ -10,7 +10,7 @@ function Home() {
     return (
         <div style={{
             minHeight: "100vh",
-            padding: "40px",
+            padding: "5vw",
             background: "linear-gradient(to bottom right, #e0f7fa, #fce4ec)",
             color: "#333",
             fontFamily: "Segoe UI, sans-serif",
@@ -21,23 +21,30 @@ function Home() {
             textAlign: "center",
             transition: "all 0.3s ease"
         }}>
-            <h1>Obrigado por ser parte do que hoje faz toda a diferença na minha vida!</h1>
+            <h1 style={{
+                fontSize: "6vw",
+                maxWidth: "90vw"
+            }}>
+                Obrigado por ser parte do que hoje faz toda a diferença na minha vida!
+            </h1>
 
             {!mostrarMensagem && (
                 <button
                     onClick={revelarMensagem}
                     style={{
-                        marginTop: "20px",
-                        padding: "10px 20px",
-                        fontSize: "1em",
+                        marginTop: "6vw",
+                        padding: "3vw 6vw",
+                        fontSize: "4vw",
                         borderRadius: "10px",
                         border: "none",
                         backgroundColor: "#b2dfdb",
                         color: "#004d40",
                         cursor: "pointer",
                         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-                        transition: "all 0.2s ease"
+                        transition: "transform 0.2s ease"
                     }}
+                    onTouchStart={(e) => e.target.style.transform = "scale(0.95)"}
+                    onTouchEnd={(e) => e.target.style.transform = "scale(1)"}
                 >
                     Ver mensagem de agradecimento
                 </button>
@@ -45,11 +52,11 @@ function Home() {
 
             {mostrarMensagem && (
                 <p style={{
-                    marginTop: "30px",
-                    fontSize: "1.2em",
-                    maxWidth: "700px",
-                    backgroundColor: "rgba(255, 255, 255, 0.8)",
-                    padding: "20px",
+                    marginTop: "8vw",
+                    fontSize: "4.2vw",
+                    maxWidth: "90vw",
+                    backgroundColor: "rgba(255, 255, 255, 0.9)",
+                    padding: "5vw",
                     borderRadius: "12px",
                     boxShadow: "0 2px 12px rgba(0,0,0,0.1)"
                 }}>
